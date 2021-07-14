@@ -1,0 +1,51 @@
+.container { 
+   width: 1400px;
+   height: 700px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 3px;
+
+    
+}
+
+
+.what {
+    width: 100%;
+    font-family: Georgia, serif;
+    grid-column: 1/2;
+   
+    grid-row: 1/2;
+  
+}
+
+.why {
+    font-family: serif;
+    grid-column: 2/3;
+   
+    grid-row: 1/2;
+  
+}
+
+.where__does {
+    font-family: "Gill Sans", sans-serif;
+    grid-column: 1/2; 
+
+    grid-row: 2/3;
+}
+.where__can {
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    grid-column: 2/3;
+
+    grid-row: 2/3;
+}
+
+.what p, .why p, .where__does p, .where__can p{
+    font-size: 27px;
+    text-align:justify;
+}
+
+.what h2, .why h2, .where__does h2, .where__can h2{
+    font-size: 35px;
+}
